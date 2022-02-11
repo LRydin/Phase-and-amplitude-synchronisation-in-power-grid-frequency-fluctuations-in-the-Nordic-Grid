@@ -1,11 +1,9 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-from scipy.stats import kurtosis, linregress, pearsonr, lognorm
+from scipy.stats import kurtosis, pearsonr
 from scipy.optimize import curve_fit
 
-import library as lib
-
+# matplotlib
 import matplotlib
 matplotlib.rcParams['pgf.texsystem'] = 'pdflatex'
 matplotlib.rcParams.update({'font.family': 'serif', 'font.size': 18,
@@ -48,7 +46,7 @@ Aalto = np.round(df['Aalto'].values, 3)
 ts = np.zeros([LTU.size, 6])
 ts[:,0] = CTH; ts[:,1] = LTH; ts[:,2] = KTH; ts[:,3] = LTU; ts[:,4] = Tampere; ts[:,5] = Aalto;
 
-# %% Increments - Warning: very slow process, data is included for expidiency
+# %% Pearson - Warning: very slow process, data is included for expidiency
 # ts = np.zeros([LTU.size, 6])
 # ts[:,0] = CTH; ts[:,1] = LTH; ts[:,2] = KTH; ts[:,3] = LTU; ts[:,4] = Tampere; ts[:,5] = Aalto;
 #
