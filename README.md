@@ -1,6 +1,7 @@
 # Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid
 Related python code to the scientific publication "Phase and amplitude synchronisation in power-grid frequency fluctuations in the Nordic Grid", early access in [IEEE Access](https://doi.org/10.1109/ACCESS.2022.3150338), with doi: 10.1109/ACCESS.2022.3150338.
 
+## Python packages
 In the following follow various python scripts to obtain the figures in the scientific publication. They requires a set of python packages, which are listed below, and can easily be installed using `pip`.
 
 Using a conventional `python >v3.4` installation, e.g., with `anaconda`, most of the standard packages should be included. These are
@@ -12,7 +13,7 @@ Using a conventional `python >v3.4` installation, e.g., with `anaconda`, most of
  - matplotlib
 ```
 
-three additional packages are needed. One for the actual calculations called `MFDFA` ([MFDFA](https://github.com/LRydin/MFDFA)), which can be installed via
+three additional packages are needed. One for actual calculations called `MFDFA` ([MFDFA](https://github.com/LRydin/MFDFA)), which can be installed via
 
 
 ```code
@@ -26,3 +27,8 @@ pip install geopandas
 pip install geoplot
 ```
 (this could require you to install other packages via `apt-get`/`brew` and we have not tested this on Windows OS.)
+
+### Plots
+
+ - Figure 1: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1.py)
+ - Figure 1 (without map): [plot_1_no_map.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1_no_map.py)
