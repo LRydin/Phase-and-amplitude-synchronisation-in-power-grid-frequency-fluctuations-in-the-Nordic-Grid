@@ -40,6 +40,8 @@ df = pd.read_pickle('Nordic_data.pkl', compression='zip')
 ```
 (the `compression='zip'` is important, else pandas does not know how the data was compressed)
 
+There are two additional files, called [pearson.npz](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/pearson.npz) and [MFDFA_data.npz](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/MFDFA_data.npz), which contain some of the heavier calculations in some of the plots. The scripts to generate the results therein are included in the plot scripts. The files are included here for convenience, to be able to quickly reproduce the figures.
+
 ## Plots
 
  - Figure 1: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1.py)
