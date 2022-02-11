@@ -28,8 +28,21 @@ pip install geoplot
 ```
 (this could require you to install other packages via `apt-get`/`brew` and we have not tested this on Windows OS.)
 
+### Data
+
+Data: [Nordic_data.pkl](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/Nordic_data.pkl) [69.5 Mb]
+
+The data is included here for convenience as it is used in the plots. The data is pickled and zipped, and thus in python the best way to unpickle it is with `pandas`:
+
+```python
+import pandas as pd
+df = pd.read_pickle('Nordic_data.pkl', compression='zip')
+```
+(the `compression='zip'` is important, else pandas does not know how the data was compressed)
+
 ### Plots
 
  - Figure 1: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1.py)
  - Figure 1 (without map): [plot_1_no_map.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1_no_map.py)
  - Figure 2 (no script, made manually, included as is): [fig_2.pdf](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/fig_2.pdf)
+ - Figure 3: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_3.py) [the script takes a quite a bit to run]
