@@ -32,3 +32,4 @@ pip install geoplot
 
  - Figure 1: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1.py)
  - Figure 1 (without map): [plot_1_no_map.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1_no_map.py)
+ - Figure 2 (no script, made manually, included as is): [fig_2.pdf](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/fig_2.pdf)
