@@ -28,7 +28,7 @@ pip install geoplot
 ```
 (this could require you to install other packages via `apt-get`/`brew` and we have not tested this on Windows OS.)
 
-### Data
+## Data
 
 Data: [Nordic_data.pkl](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/Nordic_data.pkl) [69.5 Mb]
 
@@ -40,9 +40,10 @@ df = pd.read_pickle('Nordic_data.pkl', compression='zip')
 ```
 (the `compression='zip'` is important, else pandas does not know how the data was compressed)
 
-### Plots
+## Plots
 
  - Figure 1: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1.py)
  - Figure 1 (without map): [plot_1_no_map.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_1_no_map.py)
  - Figure 2 (no script, made manually, included as is): [fig_2.pdf](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/fig_2.pdf)
- - Figure 3: [plot_1.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_3.py) [the script takes a quite a bit to run]
+ - Figure 3: [plot_3.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_3.py) [the script takes a quite a bit to run]
+ - Figure 4: [plot_4.py](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/plot_4.py) [the script as various extra plots for convenience -- it has a commented out section where the heavy calculations are done, that can take ~4 hours, thus a file with the pre-run results is also included called [pearson.npz](https://github.com/LRydin/Phase-and-amplitude-synchronisation-in-power-grid-frequency-fluctuations-in-the-Nordic-Grid/blob/main/pearson.npz)]
